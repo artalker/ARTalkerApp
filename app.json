@@ -1,29 +1,36 @@
 {
   "expo": {
-    "name": "ARTalkerApp",
+    "name": "ARTalker",
     "slug": "ARTalkerApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/at_icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6366F1"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hoisohee.ARTalker"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/at_icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hoisohee.ARTalker"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/at_icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09275b7a-4732-4afe-8a41-2713f3994dad"
+      }
     }
   }
 }
